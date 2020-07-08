@@ -1,0 +1,257 @@
+html,body{
+	margin: 0px;
+	padding: 0px;
+	background: #FFFFFF;
+	height: 100%;
+	color: ##2b2c2e;
+	font-family: "Libre Franklin",Arial,sans-serif;
+	font-weight: lighter;
+}
+header{
+	background:#000000 url("../image/red_nature.jpg") center no-repeat fixed;
+	background-size: cover;
+	height:150px;
+	color: #FFFFFF;
+	font-size: 120%;
+	font-family: Arial,"Times New Roman";
+	
+}
+header img{
+	height: 100px;
+	margin-top: 25px;
+	margin-left: 20%;
+	display: inline-block;
+	float:left;
+	position: absolute;
+	
+	
+}
+
+header h1{
+	text-align: center;
+	margin:auto 0;
+	padding:50px;
+}
+
+nav ul{
+
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+
+nav a{
+	text-decoration: none;
+	color: #000000;
+	letter-spacing: 3px;
+}
+
+nav li{
+	display: inline-block;
+	padding:30px ; 
+	position: relative;
+}
+
+
+
+/* Sub Menus */
+nav li ul {
+  display: none;
+  position: absolute;
+  width:inherit;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 120%;
+  border:1px solid #000000;
+}
+
+nav ul ul{
+	background-color: #FFFFFF;
+}
+
+
+li a:hover{
+	color: #A1A199;
+}
+
+nav li:hover ul {
+   display: block;
+}
+
+nav li li{
+	padding:10px 5%;
+}
+
+nav ul ul li:hover a{
+	opacity: 0.70;
+	
+}
+
+nav img{
+	display: inline-block;
+	padding-left:40px;
+	float: left;
+	padding-top: 1%;
+	width:5%;
+
+}
+
+nav img:hover{
+	opacity: 0.70;
+}
+
+#login li{
+	display: inline-block;
+	letter-spacing: 1px;
+	margin-left: 1px;
+	margin-right: 10px;
+	margin-top: 20px;
+	border:1px solid #000000;
+	padding: 4px;
+	float: right;
+}
+
+#login li:hover{
+	background:#b8afad;
+}
+
+#login a:hover{
+	color: #000000;
+	opacity: 1;
+}
+
+/*NEWWWWWWWWWW LINEEEEEEEEEEEE*/
+
+section img{
+	width: 100%;
+	text-align: center;
+	margin-top:30px;
+}
+
+.main{
+	text-align: center;
+	margin: 70px 20%;
+}
+
+.text{
+	margin: 50px 20%;
+	line-height: 20px;
+	letter-spacing: 1px;
+
+}
+
+.enter{
+	text-decoration: none;
+	display: inline-block;
+	font-size: 95%;
+	letter-spacing: 3px;
+	background: #d9a05d;
+	padding:10px 20px;
+	color: #FFFFFF;
+	border:2px solid #e8a24f;
+	border-spacing: 4px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.portrait>.enter{
+	display: block;
+}
+
+.red{
+	font-weight: lighter;
+	color: #ff4242;
+	font-size: 120%;
+	letter-spacing: 2px;
+}
+
+h4{
+	font-size: 80%;
+	letter-spacing: 3px;
+
+}
+
+
+.portrait{
+	display: inline-block;
+	padding:0px 30px; 
+}
+
+.portrait img{
+	width: 100px;
+	border:1px solid #000000;
+	padding: 5px;
+
+}
+
+.text h3{
+	font-size: 120%;
+	text-decoration:underline;
+}
+
+
+.text li{
+	font-weight: bold;
+}
+
+.text li span{
+	font-weight: lighter;
+}
+
+.text div{
+	text-align: center;
+}
+
+
+
+/*HERE NEW CODE START//////////////////////////////////*/
+
+
+
+#active{
+	opacity: 0.80;
+}
+
+
+a{
+	color: #000000;
+
+}
+
+a:hover{
+	opacity:0.70;
+}
+
+footer{
+	margin: 10px 20%;
+	font-size: 16px;
+}
+
+.left{
+	margin-right:5% ;
+	line-height: 25px;
+	float: left;
+}
+
+#icon i{
+	margin:10px;
+}
+
+.left a:hover{
+	opacity: 0.70;
+}
+
+.right p{
+	letter-spacing: 2px;
+}
+
+h3{
+	font-size: 14px;
+	letter-spacing: 3px;
+	font-weight: bold;
+	opacity: 1;
+}

@@ -1,0 +1,219 @@
+
+html,body{
+	margin: 0px;
+	background: #FFFFFF;
+	height: 100%;
+	color: #000000;
+	font-family: "Libre Franklin",Arial,sans-serif;
+	line-height: 20px;
+	opacity: 1;
+}
+header{
+	display: block;
+	background:#000000 url("../image/WhiteBg.jpg") center no-repeat fixed;
+	background-size: cover;
+	height:300px;
+	color: #000000;
+	text-align: center;
+	font-size: 120%;
+	font-family: Arial,"Times New Roman"
+
+}
+header img{
+	height: 200px;
+	margin-top:5px;
+}
+
+a{
+	color:#000000;
+}
+
+a:hover{
+	opacity:0.70;
+}
+
+div{
+	
+}
+
+nav ul{
+
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	font-size: 80%;
+	font-weight: bold;
+}
+
+
+nav a{
+	text-decoration: none;
+	color: #000000;
+	transition: text-decoration 1s linear;
+	letter-spacing: 3px;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+nav li{
+	display: inline-block;
+	padding:30px ; 
+	position: relative;
+}
+
+
+
+/* Sub Menus */
+nav li ul {
+  display: none;
+  position: absolute;
+  width:inherit;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 120%;
+  border:1px solid #000000;
+}
+
+nav ul ul{
+	background-color: #FFFFFF;
+}
+
+
+li a:hover{
+	color: #A1A199;
+}
+
+nav li:hover ul {
+   display: block;
+}
+
+nav li li{
+	padding:10px 5%;
+}
+
+nav ul ul li:hover a{
+	opacity: 0.70;
+	
+}
+
+nav img{
+	display: inline-block;
+	padding-left:40px;
+	float: left;
+	padding-top: 1%;
+	width:5%;
+
+}
+
+nav img:hover{
+	opacity: 0.70;
+}
+
+#login li{
+	display: inline-block;
+	letter-spacing: 1px;
+	margin-left: 1px;
+	margin-right: 10px;
+	margin-top: 20px;
+	border:1px solid #000000;
+	padding: 4px;
+	float: right;
+}
+
+#login li:hover{
+	background:#b8afad;
+}
+
+#login a:hover{
+	color: #000000;
+	opacity: 1;
+}
+
+/*NEWWWWWWWWWW LINEEEEEEEEEEEE*/
+
+
+.para a{
+	text-decoration: underline dotted;
+}
+
+
+
+ .para{
+ 	margin:auto 20%;
+ 	font-weight: lighter;
+	opacity: 0.80;
+
+}
+
+.big{
+	font-size: 150%;
+	opacity: 1;
+}
+
+
+
+
+h2{
+	font-size: 16px;
+	opacity: 1;
+	font-weight: 900;
+}
+
+ .img1{
+
+ 	background: url("../image/banner.jpg") center no-repeat fixed;
+	background-size: cover;
+	height:100%;
+	color: #FFFFFF;
+	text-align: center;
+	opacity: 1;
+ }
+
+  .img2{
+
+ 	background: url("../image/camera.jpg") center no-repeat fixed;
+ 	background-size: cover;
+	height:100%;
+	color: #FFFFFF;
+	text-align: center;
+	opacity: 1;
+ }
+
+
+#active{
+	opacity: 0.80;
+}
+
+footer{
+	margin: 10px 20%;
+	font-size: 16px;
+}
+
+.left{
+	margin-right:5% ;
+	line-height: 25px;
+	float: left;
+}
+
+#icon i{
+	margin:10px;
+
+}
+
+.left a:hover{
+	opacity: 0.70;
+}
+
+.right p{
+	letter-spacing: 2px;
+}
+
+h3{
+	font-size: 14px;
+	letter-spacing: 3px;
+	font-weight: bold;
+	opacity: 1;
+}
