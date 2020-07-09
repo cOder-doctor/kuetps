@@ -2,7 +2,7 @@
 html,body{
 	margin: 0px;
 	background: #FFFFFF;
-	width: 100%;
+	width: 100vw;
 	height: 100%;
 	color: #000000;
 	font-family: "Libre Franklin",Arial,sans-serif;
@@ -11,7 +11,7 @@ html,body{
 }
 header{
 	display: block;
-	background:#000000 url("../image/WhiteBg.jpg") center no-repeat fixed;
+	background:#000000 url("../image/flower.jpg") center no-repeat fixed;
 	background-size: cover;
 	height:300px;
 	color: #000000;
@@ -61,7 +61,7 @@ nav a:hover{
 
 nav li{
 	display: inline-block;
-	padding:30px ; 
+	padding:2%; 
 	position: relative;
 }
 
@@ -114,15 +114,21 @@ nav img:hover{
 	opacity: 0.70;
 }
 
+nav #login{
+	position: relative;
+	float: right;
+	padding:1%;
+}
+
 #login li{
-	display: inline-block;
+	
 	letter-spacing: 1px;
 	margin-left: 1px;
 	margin-right: 10px;
-	margin-top: 2%;
+	margin-top: 1.5%;
 	border:1px solid #000000;
 	padding: 4px;
-	float: right;
+	
 }
 
 #login li:hover{
@@ -175,10 +181,12 @@ h2{
  }
 
   .img2{
-
+ 
+  	display: block;
  	background: url("../image/camera.jpg") center no-repeat fixed;
- 	background-size: cover;
-	height:100%;
+ 	height: 100vh;
+	width:100vw;
+	
 	color: #FFFFFF;
 	text-align: center;
 	opacity: 1;

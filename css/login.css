@@ -7,7 +7,6 @@ html,body{
 	font-family: "Libre Franklin",Arial,sans-serif;
 	font-weight: lighter;
 }
-
 header{
 	
 	position: fixed;
@@ -92,6 +91,7 @@ nav img:hover{
 	opacity: 0.70;
 }
 
+
 nav #login{
 	position: relative;
 	float: right;
@@ -122,25 +122,79 @@ nav #login{
 
 
 
+
 .main{
-	margin: 10%;
+	background:url(../image/city.jpg) center no-repeat fixed ;
+	background-size: cover;
+	height: 100%;
+
+	color: #FFFFFF;
+	position: inherit;
+	width: 100%;
+	overflow: auto;
+	
+	
+
+}
+
+.form{
+	display: inline-block;
+	margin-left: 35%;
+	margin-top:12%;
+	background:rgba(255, 145, 0,0.4);
+	padding: 2% 5%;
+}
+
+
+.form>h2{
+	font-size: 200%;
+	letter-spacing: 2px;
+	text-decoration: underline;
+	text-decoration-style: solid;
+	webkit-text-underline-position: under;
+    -ms-text-underline-position: under;
+    text-underline-position: under;
+}
+
+.form>p{
+
+	font-size: 100%;
+	letter-spacing: 1px;
 	text-align: center;
-	letter-spacing: 3px;
-	font-weight: bold;
+}
+
+#lefttext{
+	text-align: left;
+}
+
+input{
+	font-size: 95%;
+	width: 350px;
+	height:40px;
+	border:1px solid #ff9500;
+
+}
+
+input:hover{
+	background:#ffd599;
+	opacity: 0.90;
+}
+
+#submit{
+	background: #ff9500;
 	font-size: 120%;
-	color: #333130;
 }
 
-.main img{
-	width:70%;
+#submit:hover{
+	border:1px solid #FFFFFF;
 }
 
 
-
-/*HERE NEW CODE START//////////////////////////////////*/
-
-#active{
-	opacity: 0.80;
+label{
+	font-weight: lighter;
+	font-size: 120%;
+	color: #000000;
+	
 }
 
 
@@ -149,36 +203,13 @@ a{
 
 }
 
+
 a:hover{
 	opacity:0.70;
 }
 
-footer{
-	margin: 10px 20%;
-	font-size: 16px;
-}
-
-.left{
-	margin-right:5% ;
-	line-height: 25px;
-	float: left;
-}
-
-#icon i{
-	margin:10px;
-}
-
-.left a:hover{
+#active{
+	background:#9e8f7a;
 	opacity: 0.70;
-}
 
-.right p{
-	letter-spacing: 2px;
-}
 
-h3{
-	font-size: 14px;
-	letter-spacing: 3px;
-	font-weight: bold;
-	opacity: 1;
-}

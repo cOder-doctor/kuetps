@@ -8,28 +8,17 @@ html,body{
 	font-weight: lighter;
 }
 header{
-	background:#000000 url("../image/festiv.jpg") center no-repeat fixed;
-	background-size: cover;
-	height:150px;
-	color: #000000;
-	font-size: 120%;
-	font-family: Arial,"Times New Roman";
 	
-}
-header img{
-	height: 100px;
-	margin-top: 25px;
-	margin-left: 20%;
-	display: inline-block;
-	float:left;
-	position: absolute;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background:#FFFFFF;
+	border-bottom: 1px solid #000000;
 	
 }
 
-header h1{
-	text-align: center;
-	margin:auto 0;
-	padding:50px;
+nav{
+	clear: both;
 }
 
 nav ul{
@@ -51,7 +40,7 @@ nav a{
 
 nav li{
 	display: inline-block;
-	padding:30px ; 
+	padding:2%; 
 	position: relative;
 }
 
@@ -103,15 +92,21 @@ nav img:hover{
 	opacity: 0.70;
 }
 
+nav #login{
+	position: relative;
+	float: right;
+	padding:1%;
+}
+
 #login li{
-	display: inline-block;
+	
 	letter-spacing: 1px;
 	margin-left: 1px;
 	margin-right: 10px;
-	margin-top: 2%;
+	margin-top: 1.5%;
 	border:1px solid #000000;
 	padding: 4px;
-	float: right;
+	
 }
 
 #login li:hover{
@@ -146,7 +141,7 @@ a:hover{
 }
 
 footer{
-	margin: 10px 20%;
+	margin: 10% 20%;
 	font-size: 16px;
 }
 
