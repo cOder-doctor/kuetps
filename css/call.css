@@ -14,12 +14,14 @@ header{
 	color: #FFFFFF;
 	font-size: 120%;
 	font-family: Arial,"Times New Roman";
+
 	
 }
 header img{
 	height: 100px;
 	margin-top: 25px;
 	margin-left: 20%;
+	margin-right: 0px;
 	display: inline-block;
 	float:left;
 	position: relative;
@@ -28,8 +30,13 @@ header img{
 }
 
 header h1{
-	text-align: center;
-	margin:auto 0;
+	margin-top: 3%;
+	margin-left: 2%;
+	float: left;
+}
+
+nav{
+	clear: both;
 }
 
 nav ul{
@@ -94,8 +101,9 @@ nav img{
 	display: inline-block;
 	padding-left:40px;
 	float: left;
-	padding-top: 1%;
+	padding-top: 0.5%;
 	width:5%;
+
 
 }
 
@@ -103,15 +111,21 @@ nav img:hover{
 	opacity: 0.70;
 }
 
+nav #login{
+	position: relative;
+	float: right;
+	padding:1%;
+}
+
 #login li{
-	display: inline-block;
+	
 	letter-spacing: 1px;
 	margin-left: 1px;
 	margin-right: 10px;
 	margin-top: 2%;
 	border:1px solid #000000;
 	padding: 4px;
-	float: right;
+	
 }
 
 #login li:hover{
