@@ -127,7 +127,7 @@ nav #login{
 	background:url(../image/city.jpg) center no-repeat fixed ;
 	background-size: cover;
 	height: 100%;
-
+	padding: 25vh 35vw;
 	color: #FFFFFF;
 	position: inherit;
 	width: 100%;
@@ -139,8 +139,7 @@ nav #login{
 
 .form{
 	display: inline-block;
-	margin-left: 35%;
-	margin-top:12%;
+	
 	background:rgba(255, 145, 0,0.4);
 	padding: 2% 5%;
 }
