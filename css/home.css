@@ -11,9 +11,10 @@ html,body{
 }
 header{
 	display: block;
-	background:#000000 url("../image/flower.jpg") center no-repeat fixed;
+	background:#000000 url("../image/flower.jpg") center no-repeat;
 	background-size: cover;
-	height:300px;
+	height:15em;
+	width:100%;
 	color: #000000;
 	text-align: center;
 	font-size: 120%;
@@ -172,9 +173,10 @@ h2{
 
  .img1{
 
- 	background: url("../image/banner.jpg") center no-repeat fixed;
+ 	background: url("../image/banner.jpg") center no-repeat;
 	background-size: cover;
-	height: 100%;
+	height: 40em;
+	width: 100vw;
 	color: #FFFFFF;
 	text-align: center;
 	opacity: 1;
@@ -183,8 +185,8 @@ h2{
   .img2{
  
   	display: block;
- 	background: url("../image/camera.jpg") center no-repeat fixed;
- 	height: 100vh;
+ 	background: url("../image/camera.jpg") center no-repeat;
+ 	height: 45em;
 	width:100vw;
 	
 	color: #FFFFFF;
